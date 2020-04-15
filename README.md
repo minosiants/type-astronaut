@@ -17,9 +17,11 @@
 [full example](src/main/scala/astronaut/autoderiving.scala)
 
 1. Define typeclass
-```trait MyTC[A]```
+```scala
+trait MyTC[A]
+```
   
-2. Define primi􀦞ve instances:
+2. Define primitve instances:
 
 ```scala
 implicit def intInstance: MyTC[Int] = ???
