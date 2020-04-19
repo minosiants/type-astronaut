@@ -9,7 +9,7 @@ val catsEffectTestVersion = "0.3.0"
 
 lazy val root = (project in file("."))
   .settings(
-    organization := "com.minosiatns",
+    organization := "com.minosiants",
     name := "type-astronaut",
     scalaVersion := "2.13.1",
     libraryDependencies ++= Seq(
