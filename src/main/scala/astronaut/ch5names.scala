@@ -138,8 +138,6 @@ object Ch5 extends App {
   final case class Rectangle(width: Double, height: Double) extends Shape
   final case class Circle(radius: Double)                   extends Shape
 
-
-
   val shape: Shape = Circle(1.0)
 
   println(Json.JsonEncoder[Shape].encode(shape))
